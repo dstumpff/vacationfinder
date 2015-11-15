@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>VacationFinder</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-default navbar-static-top navbar-map" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/index.html">
+            <img class="logo-svg" src="/images/plane.svg">
+            <h3 class="logo-text">VacationFinder</h3>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="map-outer-container">
+      <div class="map-container">
+        <div class="panel panel-primary map-controls">
+          <div class="panel-heading">Vacation Criteria</div>
+          <div class="panel-body">
+            <form>
+              <div class="form-group">
+              <label for="">
+                Location
+              </label>
+              <input type="text" class="form-control" placeholder="Country, City..." />
+            </div>
+            <div class="form-group">
+              <label for="">
+                Budget
+              </label>
+              <select name="" id="" class="form-control">
+                <option value="0-25">Below $500</option>
+                <option value="25-50">Above $500</option>
+                <option value="50-75">Above $1K</option>
+                <option value="75-100">Above $2K</option>
+                <option value="100+">Above $5K</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Group Size</label>
+               <input type="text" class="form-control" placeholder="Group Size" />
+            </div>
+            <div class="form-group">
+              <label for="">Age Range</label>
+              <select name="" id="" class="form-control">
+                <option value="">20's</option>
+                <option value="">30's</option>
+                <option value="">40's</option>
+                <option value="">50's</option>
+                <option value="">60's</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Vacation Type</label>
+              <select name="" id="" class="form-control">
+                <option value="">Beach</option>
+                <option value="">Low-key</option>
+                <option value="">Adventure</option>
+                <option value="">Sight Seeing</option>
+                <option value="">Kid Friendly</option>
+                <option value="">Resort</option>
+              </select>
+            </div>
+              <button type="submit" href="/map.html" class="btn btn-primary">Update</button>
+            </form>
+          </div>
+        </div>
+        <div class="map">
+        </div>
+      </div>  
+    </div>
+    
+
+    <!-- build:js scripts/main.js -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
